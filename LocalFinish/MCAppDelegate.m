@@ -7,13 +7,25 @@
 //
 
 #import "MCAppDelegate.h"
+#import "MCViewController.h"
 
-@implementation MCAppDelegate
+@implementation MCAppDelegate {
+    MCViewController *vc;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"launchOptions: %@", launchOptions);
+    vc = (MCViewController*)self.window.rootViewController;
+    vc.label.text = launchOptions.description;
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSLog(@"notification: %@", notification);
+    vc.label.text = notification.description;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

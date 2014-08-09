@@ -10,4 +10,6 @@
 
 @interface MCViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
 @end

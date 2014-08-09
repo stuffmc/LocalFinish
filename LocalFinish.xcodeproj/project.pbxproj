@@ -22,6 +22,7 @@
 		4C68874F1996960200E2CD77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C68872E1996960200E2CD77 /* UIKit.framework */; };
 		4C6887571996960200E2CD77 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C6887551996960200E2CD77 /* InfoPlist.strings */; };
 		4C6887591996960200E2CD77 /* LocalFinishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6887581996960200E2CD77 /* LocalFinishTests.m */; };
+		4C6887631996A13200E2CD77 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 4C6887621996A13200E2CD77 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		4C6887541996960200E2CD77 /* LocalFinishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalFinishTests-Info.plist"; sourceTree = "<group>"; };
 		4C6887561996960200E2CD77 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C6887581996960200E2CD77 /* LocalFinishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalFinishTests.m; sourceTree = "<group>"; };
+		4C6887621996A13200E2CD77 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		4C68871E1996960200E2CD77 = {
 			isa = PBXGroup;
 			children = (
+				4C6887621996A13200E2CD77 /* README */,
 				4C6887301996960200E2CD77 /* LocalFinish */,
 				4C6887521996960200E2CD77 /* LocalFinishTests */,
 				4C6887291996960200E2CD77 /* Frameworks */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6887631996A13200E2CD77 /* README in Resources */,
 				4C6887411996960200E2CD77 /* Main_iPad.storyboard in Resources */,
 				4C6887461996960200E2CD77 /* Images.xcassets in Resources */,
 				4C68873E1996960200E2CD77 /* Main_iPhone.storyboard in Resources */,

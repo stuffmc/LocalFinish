@@ -17,13 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)push:(id)sender {
+    UILocalNotification *notification = [UILocalNotification new];
+    _label.text = @"Sent. Now quit or kill the app!";
+    notification.alertBody = @"Push it real good!";
+    notification.fireDate = [NSDate dateWithTimeIntervalSinceNow:5];
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 
 @end
