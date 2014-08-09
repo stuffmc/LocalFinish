@@ -1,9 +1,9 @@
 # UILocalNotifications in iOS 8
 ---
 
-To me, it seems neither `application:didReceiveLocalNotification:` not `application:didFinishLaunchingWithOptions:` with the correct `UIApplicationLaunchOptionsLocalNotificationKey` are called on iOS 8.
+To me, it seems neither `application:didReceiveLocalNotification:` nor `application:didFinishLaunchingWithOptions:` with the correct `UIApplicationLaunchOptionsLocalNotificationKey` are called on iOS 8.
 
-Under iOS 7, all is fine. Maybe I'm missing something. If so, let me know.
+Using iOS 7, all is fine. Maybe I'm missing something. If so, let me know.
 
 ##How to use the demo app?
 ---
